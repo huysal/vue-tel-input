@@ -19,6 +19,7 @@
     "lint": "vue-cli-service lint",
     "lint:fix": "vue-cli-service lint --fix",
     "prepublishOnly": "npm run build && npm run build:modern"
+        "prepare": "npm run build && npm run build:modern"
   },
   "files": [
     "dist/",
