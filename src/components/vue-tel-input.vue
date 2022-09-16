@@ -350,7 +350,7 @@ export default {
         this.setDropdownPosition();
         this.$emit('open');
       } else {
-        this.$emit('close');
+        //this.$emit('close');
       }
     },
   },
